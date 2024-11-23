@@ -3,7 +3,8 @@ import { IMG_CDN } from '../asset/config';
 
 
 const Header = ()=>{
-    const [searchText,setSearchText] = useState([]);
+    const [searchText,setSearchText] = useState("");
+    
     return(
         <>
             <div className="flex items-center  w-100vw h-36  bg-orange-200 justify-between">
